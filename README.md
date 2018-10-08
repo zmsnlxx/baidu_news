@@ -1,4 +1,4 @@
-# baidu
+# baidu_news
 
 > A Vue.js project
 
@@ -7,6 +7,13 @@
 ``` bash
 # install dependencies
 npm install
+
+# 启动mongodb数据库
+mongod --dbpath db文件夹路径
+
+# 启动服务器
+cd server文件夹下
+node server
 
 # serve with hot reload at localhost:8080
 npm run dev
